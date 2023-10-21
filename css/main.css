@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: yek;
+}
+@font-face {
+  font-family: yek;
+  src: url(../iranyekan.woff);
+}
+h1{
+  position: absolute;
+  direction: rtl;
+  left: 33%;
+  top: 40px;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  direction: rtl;
+  gap: 20px;
+  background: url(../4.avif);
+  background-size: cover;
+  
+}
+.container > div.content {
+  width: 50%;
+  height: 60vh;
+  background-color: rgb(0, 100, 100);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding-top: 30px;
+  border-radius: 25px;
+}
+.container > div.content > input {
+  width: 200px;
+  height: 30px;
+  direction: rtl;
+  padding-right: 20px;
+  border: unset;
+  outline: unset;
+}
+button#btn {
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  background-color: lightgoldenrodyellow;
+  font-family: sans-serif;
+  border: unset;
+  outline: unset;
+  font-family: yek;
+}
+.modal {
+  width: 400px;
+  margin-bottom: 30px;
+  font-family: yek;
+  border-radius: 25px;
+  padding: 25px;
+  font-size: 25px;
+  direction: rtl;
+  background-color: khaki;
+  border: 2px solid black;
+  font-weight: bolder;
+}
+.box > img {
+  width: 400px;
+}
+.box {
+  display: none;
+}
+.active {
+  display: block;
+}
